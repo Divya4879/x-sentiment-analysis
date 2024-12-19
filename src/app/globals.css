@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 270 50% 5%;
+  --foreground: 270 10% 95%;
+  --primary: 270 100% 50%;
+  --secondary: 270 30% 20%;
+  --accent: 270 30% 30%;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+
